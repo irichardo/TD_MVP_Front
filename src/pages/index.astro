@@ -6,23 +6,22 @@ import LandingPage from '../components/LandingPage.tsx'
 
 
 <Layout title="Campo Fé MVP">
-<script>
-    (function(_, m){
-        var kommunicateSettings = 
-            {"appId":"31296fb465dea23cb75a1d77035f15199","popupWidget":true,"automaticChatOpenOnNavigation":true};
-        var s = document.createElement("script"); s.type = "text/javascript"; s.async = true;
-        s.src = "https://widget.kommunicate.io/v2/kommunicate.app";
-        var h = document.getElementsByTagName("head")[0]; h.appendChild(s);
-      //@ts-ignore
-        window.kommunicate = m; m._globals = kommunicateSettings;
-      //@ts-ignore
-    })(document, window.kommunicate || {});
-</script>
+<!-- <script> -->
+<!--     (function(_, m){ -->
+<!--         var kommunicateSettings =  -->
+<!--             {"appId":"31296fb465dea23cb75a1d77035f15199","popupWidget":true,"automaticChatOpenOnNavigation":true}; -->
+<!--         var s = document.createElement("script"); s.type = "text/javascript"; s.async = true; -->
+<!--         s.src = "https://widget.kommunicate.io/v2/kommunicate.app"; -->
+<!--         var h = document.getElementsByTagName("head")[0]; h.appendChild(s); -->
+<!--       //@ts-ignore -->
+<!--         window.kommunicate = m; m._globals = kommunicateSettings; -->
+<!--       //@ts-ignore -->
+<!--     })(document, window.kommunicate || {}); -->
+<!-- </script> -->
 	<main>
   <LandingPage transition:persist client:visible/>
 	</main>
 </Layout>
-
 <style>
 
 	/* main { */

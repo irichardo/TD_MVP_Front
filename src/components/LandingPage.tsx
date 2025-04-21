@@ -10,6 +10,14 @@ function LandingPage() {
         <Slider />
       </div>
       <Detail />
+      <div className="mt-4">
+        <a
+          href="mailto:info@jonathanvelez.com"
+          className="text-blue-500 underline hover:text-blue-700"
+        >
+          Envíame un correo
+        </a>
+      </div>
     </section>
   );
 }
